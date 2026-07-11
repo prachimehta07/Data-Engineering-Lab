@@ -1,0 +1,39 @@
+[
+  {
+    "user_id": "U1001",
+    "session_id": "S98765",
+    "event": "product_view",
+    "product_id": "P201",
+    "timestamp": "2026-07-10T10:15:30Z"
+  },
+  {
+    "user_id": "U1001",
+    "session_id": "S98765",
+    "event": "add_to_cart",
+    "product_id": "P201",
+    "timestamp": "2026-07-10T10:16:05Z"
+  },
+  {
+    "user_id": "U1001",
+    "session_id": "S98765",
+    "event": "checkout_started",
+    "product_id": "P201",
+    "timestamp": "2026-07-10T10:18:42Z"
+  },
+  {
+    "user_id": "U1001",
+    "session_id": "S98765",
+    "event": "purchase_completed",
+    "product_id": "P201",
+    "order_id": "O5501",
+    "amount": 1299.00,
+    "timestamp": "2026-07-10T10:19:10Z"
+  },
+  {
+    "user_id": "U2044",
+    "session_id": "S12233",
+    "event": "product_view",
+    "product_id": "P305",
+    "timestamp": "2026-07-10T10:20:00Z"
+  }
+]
