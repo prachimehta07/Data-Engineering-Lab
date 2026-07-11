@@ -68,7 +68,7 @@ Every arrow above also passes through the **Security / Privacy / Observability /
 
 [`datasets/`](./datasets) has a mock relational schema, a sample clickstream JSON payload, and a sample inventory CSV. These exist to make the **Generation** stage concrete — an abstract box labeled "OLTP PostgreSQL" is easy to nod along to and not actually understand; a real `orders` table with real columns forces you to reason about what's actually flowing downstream (and what counts as PII that Privacy controls need to catch).
 
-## 📜 System Manifesto
+## System Manifesto
 
 [`manifesto/system_manifesto.md`](./manifesto/system_manifesto.md) — the security, privacy, observability, and governance principles this architecture is designed to satisfy.
 
@@ -92,4 +92,4 @@ At every handoff between stages:
 - Streaming vs. batch data movement, and when each is the wrong choice
 - Layered/lakehouse storage design (Bronze/Silver/Gold) and why immutability matters
 - Where security/privacy/observability actually have to be enforced, not just listed
-- Professional Git/GitHub documentation workflow
+

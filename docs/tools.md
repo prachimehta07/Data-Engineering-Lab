@@ -1,4 +1,4 @@
-# 🛠️ Tools Referenced in Practical 1
+# Tools Referenced in Practical 1
 
 Scoped to what actually appears in the Practical 1 architecture — not a forward-looking course list. Add a new section here only when a later practical introduces a genuinely new tool.
 

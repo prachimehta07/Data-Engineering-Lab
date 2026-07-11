@@ -1,4 +1,4 @@
-# 📜 Enterprise Data Engineering Manifesto
+# Enterprise Data Engineering Manifesto
 
 ## Vision
 
@@ -20,7 +20,7 @@ Build data pipelines that are scalable, secure, observable, and trustworthy by d
 
 ---
 
-## 🔐 Security
+## Security
 
 Applied at every boundary between stages (Generation→Ingestion, Ingestion→Storage, etc.):
 
@@ -33,7 +33,7 @@ Applied at every boundary between stages (Generation→Ingestion, Ingestion→St
 | Secrets Management | Credentials/keys are never hardcoded, always vault-managed |
 | Audit Logging | Every access to sensitive data is recorded and reviewable |
 
-## 📈 Observability
+## Observability
 
 Applied continuously, not just when something breaks:
 
@@ -46,7 +46,7 @@ Applied continuously, not just when something breaks:
 | Alerts | Notify humans before users notice something is wrong |
 | Pipeline Monitoring | Dashboards (e.g., Grafana) showing the system's real-time state |
 
-## 🕵️ Privacy
+## Privacy
 
 Applied wherever personal or sensitive data exists:
 
@@ -59,7 +59,7 @@ Applied wherever personal or sensitive data exists:
 | Hashing | One-way transform sensitive values (e.g., emails) for matching without exposure |
 | Compliance | Alignment with regulations such as GDPR |
 
-## 🗂️ Governance
+## Governance
 
 Applied so the organization always knows what data it has and where it came from:
 

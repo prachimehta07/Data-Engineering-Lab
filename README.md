@@ -45,7 +45,6 @@ Each practical folder documents itself in its own `README.md` — that's the sin
 |---|-----------|---------|
 | 1 | [Enterprise Data Engineering Lifecycle](./practical-01-data-engineering-lifecycle) | End-to-end architecture diagram + design rationale + manifesto for an e-commerce platform |
 
-*(New rows are added here only once a practical is actually done — not reserved in advance.)*
 
 ---
 

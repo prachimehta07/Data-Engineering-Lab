@@ -1,4 +1,4 @@
-# 🔍 Design Rationale — What the Diagram Doesn't Show
+# Design Rationale — What the Diagram Doesn't Show
 
 The architecture diagram shows *what* was built. This document is about *why* — the trade-offs, failure modes, and decisions a box-and-arrow picture can't communicate. Read this after you understand the diagram, not instead of it.
 

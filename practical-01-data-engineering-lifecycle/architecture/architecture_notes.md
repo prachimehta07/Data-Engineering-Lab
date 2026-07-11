@@ -1,4 +1,4 @@
-# 🧩 Architecture Notes
+# Architecture Notes
 
 A section-by-section walkthrough of `enterprise_data_engineering_lifecycle.drawio` — read this alongside the diagram.
 

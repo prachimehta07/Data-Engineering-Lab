@@ -1,4 +1,4 @@
-# 🗃️ Mock E-Commerce Schema
+# Mock E-Commerce Schema
 
 This is the mock schema referenced by the Generation stage of the architecture (`OLTP PostgreSQL` box). It represents a simplified transactional database for an enterprise e-commerce platform.
 

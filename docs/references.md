@@ -1,4 +1,4 @@
-# 📚 References
+# References
 
 Resources used while researching and building this lab.
 
