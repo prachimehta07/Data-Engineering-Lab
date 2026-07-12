@@ -72,6 +72,27 @@ Every arrow above also passes through the **Security / Privacy / Observability /
 
 [`manifesto/system_manifesto.md`](./manifesto/system_manifesto.md) — the security, privacy, observability, and governance principles this architecture is designed to satisfy.
 
+## Supplementary Problem — Smart City IoT Traffic Sensor Platform
+
+Mapping the same five stages onto a **continuous real-time streaming** IoT use case:
+
+| Stage | Smart City Traffic Sensor Mapping |
+|---|---|
+| **1. Generation** | Thousands of roadside sensors/cameras continuously emitting telemetry (vehicle count, speed, congestion level) every 1–5 seconds — always-on, high-volume, no "off" state |
+| **2. Ingestion** | MQTT/Kafka-based streaming ingestion built for **out-of-order and late-arriving data** (sensors on unreliable cellular links), with edge buffering to survive network drops |
+| **3. Storage** | Time-series-optimized storage (e.g. a Bronze raw event store + a time-series DB like InfluxDB/TimescaleDB for Silver), partitioned by sensor ID and time window rather than by business date |
+| **4. Transformation** | Real-time stream processing (Flink/Spark Structured Streaming) computing rolling aggregates — average speed per intersection per minute, congestion scoring — instead of nightly batch jobs |
+| **5. Serving** | Low-latency serving to traffic-signal control systems and a live public congestion map; sub-second freshness requirements, unlike e-commerce BI dashboards which tolerate minute/hour-level latency |
+
+**Key differentiator from the e-commerce case:** the IoT platform has **no natural batch
+window** — data generation, ingestion, and serving all happen continuously and
+simultaneously, which pushes storage/transformation toward stream-native tools rather
+than the batch-friendly Bronze/Silver/Gold cadence used above, and raises the bar on
+observability (sensor-health monitoring, late-data handling) as its own first-class
+concern.
+
+---
+
 ## Key Questions Answered
 
 **1. How do downstream serving needs influence early generation/ingestion/storage decisions?**
