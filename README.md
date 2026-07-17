@@ -33,6 +33,12 @@ Data-Engineering-Lab/
     ├── README.md
     ├── architecture/
     └── manifesto/
+└── practical-02-etl-pipeline/
+    ├── README.md
+    ├── source_system/
+    ├── etl_pipeline/
+    ├── warehouse/
+    └── output/
 ```
 
 Each practical folder documents itself in its own `README.md` — that's the single entry point per practical.
@@ -44,6 +50,7 @@ Each practical folder documents itself in its own `README.md` — that's the sin
 | # | Practical | Summary |
 |---|-----------|---------|
 | 1 | [Enterprise Data Engineering Lifecycle](./practical-01-data-engineering-lifecycle) | End-to-end architecture diagram + design rationale + manifesto for an e-commerce platform |
+| 2 | [ETL Pipeline with Schema Discovery & Validation](./practical-02-etl-pipeline) | Simulated file/API/DB source systems, schema discovery, profiling, validation, and warehouse loading |
 
 
 ---

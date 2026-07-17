@@ -1,0 +1,12 @@
+=== CUSTOMERS ===
+Columns: ['customer_id', 'name', 'email', 'phone', 'age']
+Dtypes: {'customer_id': 'int64', 'name': 'str', 'email': 'str', 'phone': 'str', 'age': 'int64'}
+
+=== PRODUCTS ===
+Columns: ['product_id', 'product_name', 'category', 'price']
+Dtypes: {'product_id': 'int64', 'product_name': 'str', 'category': 'str', 'price': 'float64'}
+
+=== TRANSACTIONS ===
+Columns: ['transaction_id', 'device', 'date', 'customer.id', 'payment.amount', 'payment.method', 'payment']
+Dtypes: {'transaction_id': 'int64', 'device': 'str', 'date': 'str', 'customer.id': 'float64', 'payment.amount': 'float64', 'payment.method': 'str', 'payment': 'float64'}
+

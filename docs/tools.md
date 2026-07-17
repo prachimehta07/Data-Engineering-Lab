@@ -41,3 +41,18 @@ Scoped to what actually appears in the Practical 1 architecture — not a forwar
 | **FastAPI** | Exposes processed data as a REST API |
 | **PostgreSQL** | Relational database — where the transactional data (orders, customers) is born |
 | **MongoDB** | Document database — used for less-structured data like logs or clickstream events |
+
+---
+
+## Tools Referenced in Practical 2
+
+Scoped to what actually appears in the Practical 2 ETL pipeline.
+
+| Tool | What it's for |
+|------|---------------|
+| Faker | Generates realistic fake data (names, emails, dates) for simulating source systems |
+| Pandas | Reads, profiles, and validates tabular/semi-structured data |
+| FastAPI | Simulates a transaction API that the ETL pulls from |
+| Uvicorn | ASGI server that runs the FastAPI app |
+| Requests | HTTP client used to call the transaction API from the ETL |
+| SQLite | Relational source (products) and destination (warehouse) database |

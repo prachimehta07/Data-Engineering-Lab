@@ -1,0 +1,4 @@
+API_URL=http://127.0.0.1:8000/transactions
+WAREHOUSE_DB=warehouse/warehouse.db
+TIMEOUT=30
+RETRY=2

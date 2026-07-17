@@ -1,0 +1,18 @@
+=== CUSTOMERS ===
+Rows: 100
+Nulls: {'customer_id': 0, 'name': 0, 'email': 5, 'phone': 0, 'age': 0}
+Duplicate rows: 0
+Valid: 69, Invalid: 31
+
+=== PRODUCTS ===
+Rows: 50
+Nulls: {'product_id': 0, 'product_name': 0, 'category': 3, 'price': 0}
+Duplicate rows: 0
+Valid: 43, Invalid: 7
+
+=== TRANSACTIONS ===
+Rows: 100
+Nulls: {'transaction_id': 0, 'device': 0, 'date': 0, 'customer.id': 3, 'payment.amount': 3, 'payment.method': 3, 'payment': 100}
+Duplicate rows: 0
+Valid: 89, Invalid: 11
+

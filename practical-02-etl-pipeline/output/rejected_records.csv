@@ -1,0 +1,50 @@
+age,date,product_id,customer.id,email,transaction_id,phone,name,customer_id,device,payment.amount,product_name,payment,error_reason,price,category,payment.method
+39,,,,walterandrea@example.net,,0108665342,Kathleen Jimenez,31,,,,,duplicate id,,,
+20,,,,nan,,6281358078,Brenda Yang,16,,,,,invalid email format,,,
+63,,,,nan,,9271972749,Eduardo Moran,17,,,,,invalid email format,,,
+47,,,,nan,,8417200575,Charles Figueroa,23,,,,,invalid email format,,,
+49,,,,nlloyd@example.org,,0299609012,Antonio James,31,,,,,duplicate id,,,
+29,,,,david99@example.org,,12345,Kimberly Williams,33,,,,,invalid phone,,,
+52,,,,fnunez@example.net,,12345,Nicole Gardner,38,,,,,invalid phone,,,
+60,,,,josephpruittgmail.com,,1918689281,Joseph Pruitt,42,,,,,invalid email format,,,
+47,,,,lee35@example.org,,,Megan Bailey,43,,,,,missing phone,,,
+68,,,,gary29@example.com,,,Nicholas Ingram,47,,,,,missing phone,,,
+66,,,,meyerteresa@example.com,,,Tammy Walker,48,,,,,missing phone,,,
+25,,,,nan,,1744160547,Sylvia Larson,49,,,,,invalid email format,,,
+23,,,,natalieduncangmail.com,,6586363105,Natalie Duncan,52,,,,,invalid email format,,,
+-5,,,,ortegasylvia@example.com,,2750830687,Joseph Hancock,59,,,,,invalid age,,,
+32,,,,guzmankristin@example.org,,12345,Ryan Thompson,61,,,,,invalid phone,,,
+48,,,,jrobertson@example.org,,6321575176,,62,,,,,missing name,,,
+67,,,,kevin28@example.org,,,Amber Brandt,71,,,,,missing phone,,,
+26,,,,vsellers@example.org,,4265454481,Danielle Young,73,,,,,duplicate id,,,
+250,,,,yolandabennett@example.org,,7417177633,Lindsay Bennett,77,,,,,invalid age,,,
+250,,,,cannoncharles@example.net,,6438471726,Zachary Smith,80,,,,,invalid age,,,
+63,,,,thomaspatel@example.org,,3958250441,Miranda Collins,91,,,,,duplicate id,,,
+58,,,,theresagomezgmail.com,,0421154301,Theresa Gomez,84,,,,,invalid email format,,,
+-5,,,,myerskristen@example.org,,9301214015,Edward Young,89,,,,,invalid age,,,
+25,,,,jessicamonroegmail.com,,6890383538,Jessica Monroe,90,,,,,invalid email format,,,
+30,,,,tracysanchez@example.com,,9308589172,Garrett Howard,91,,,,,duplicate id,,,
+54,,,,haleyjones@example.net,,12345,Ashley Greene,73,,,,,invalid phone; duplicate id,,,
+18,,,,douglasoconnellgmail.com,,3835368924,Douglas Oconnell,94,,,,,invalid email format,,,
+36,,,,nan,,5117279274,Michael Bauer,95,,,,,invalid email format,,,
+-5,,,,kvazquez@example.net,,2253928942,Sally Jenkins,97,,,,,invalid age,,,
+45,,,,ycrawford@example.org,,9886639720,,98,,,,,missing name,,,
+250,,,,elizabethbaldwin@example.net,,8232273140,Lori Newton,100,,,,,invalid age,,,
+,,49,,,,,,,,,Issue Speech,,duplicate id,8501.88,Clothing,
+,,15,,,,,,,,,Or Other,,invalid price,-2909.55,Grocery,
+,,18,,,,,,,,,Sister Significant,,invalid price,-16918.55,nan,
+,,20,,,,,,,,,Dog Policy,,duplicate id,23303.03,Grocery,
+,,20,,,,,,,,,Dinner Address,,duplicate id,16040.4,Grocery,
+,,48,,,,,,,,,Nice Fly,,invalid price,-21996.96,nan,
+,,49,,,,,,,,,Teach Sit,,duplicate id,52417.79,Toys,
+,2026-07-11,,59.0,,6,,,,mobile,-12559.96,,nan,invalid amount,,,CARD
+,2026-06-18,,nan,,7,,,,desktop,14547.27,,nan,invalid payment method,,,BitcoinCashUPI
+,2026-06-19,,38.0,,8,,,,mobile,13557.7,,nan,invalid payment method,,,BitcoinCashUPI
+,2026-07-14,,81.0,,22,,,,mobile,401.28,,nan,invalid payment method,,,BitcoinCashUPI
+,2026-07-08,,nan,,27,,,,tablet,nan,,nan,invalid payment method,,,nan
+,2026-06-24,,65.0,,32,,,,mobile,nan,,nan,invalid payment method,,,nan
+,2026-07-02,,32.0,,39,,,,desktop,2062.97,,nan,invalid payment method,,,BitcoinCashUPI
+,2026-07-04,,81.0,,43,,,,mobile,-5526.1,,nan,invalid amount,,,NETBANKING
+,2026-07-07,,8.0,,54,,,,mobile,-13034.45,,nan,invalid amount,,,UPI
+,2026-06-23,,71.0,,87,,,,desktop,-2472.48,,nan,invalid amount,,,NETBANKING
+,2026-07-15,,13.0,,92,,,,desktop,nan,,nan,invalid payment method,,,nan

@@ -1,0 +1,1193 @@
+[
+    {
+        "transaction_id": 1,
+        "customer": {
+            "id": 83
+        },
+        "payment": {
+            "amount": 6230.61,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-23"
+    },
+    {
+        "transaction_id": 2,
+        "customer": {
+            "id": 21
+        },
+        "payment": {
+            "amount": 2913.59,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-20"
+    },
+    {
+        "transaction_id": 3,
+        "customer": {
+            "id": 40
+        },
+        "payment": {
+            "amount": 4857.93,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-06-19"
+    },
+    {
+        "transaction_id": 4,
+        "customer": {
+            "id": 51
+        },
+        "payment": {
+            "amount": 6263.13,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-26"
+    },
+    {
+        "transaction_id": 5,
+        "customer": {
+            "id": 86
+        },
+        "payment": {
+            "amount": 5462.62,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-06-30"
+    },
+    {
+        "transaction_id": 6,
+        "customer": {
+            "id": 59
+        },
+        "payment": {
+            "amount": -12559.96,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-07-11"
+    },
+    {
+        "transaction_id": 7,
+        "customer": {
+            "id": null
+        },
+        "payment": {
+            "amount": 14547.27,
+            "method": "BitcoinCashUPI"
+        },
+        "device": "desktop",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 8,
+        "customer": {
+            "id": 38
+        },
+        "payment": {
+            "amount": 13557.7,
+            "method": "BitcoinCashUPI"
+        },
+        "device": "mobile",
+        "date": "2026-06-19"
+    },
+    {
+        "transaction_id": 9,
+        "customer": {
+            "id": 38
+        },
+        "payment": {
+            "amount": 16472.0,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-07-16"
+    },
+    {
+        "transaction_id": 10,
+        "customer": {
+            "id": 81
+        },
+        "payment": {
+            "amount": 4797.75,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-07-12"
+    },
+    {
+        "transaction_id": 11,
+        "customer": {
+            "id": 34
+        },
+        "payment": {
+            "amount": 17873.85,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-04"
+    },
+    {
+        "transaction_id": 12,
+        "customer": {
+            "id": 94
+        },
+        "payment": {
+            "amount": 3604.04,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-06-27"
+    },
+    {
+        "transaction_id": 13,
+        "customer": {
+            "id": 84
+        },
+        "payment": {
+            "amount": 19769.58,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-12"
+    },
+    {
+        "transaction_id": 14,
+        "customer": {
+            "id": 62
+        },
+        "payment": {
+            "amount": 4994.76,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-06-20"
+    },
+    {
+        "transaction_id": 15,
+        "customer": {
+            "id": 89
+        },
+        "payment": {
+            "amount": 14559.57,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-06-24"
+    },
+    {
+        "transaction_id": 16,
+        "customer": {
+            "id": 72
+        },
+        "payment": {
+            "amount": 17628.9,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-05"
+    },
+    {
+        "transaction_id": 17,
+        "customer": {
+            "id": 82
+        },
+        "payment": {
+            "amount": 11063.94,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-06-25"
+    },
+    {
+        "transaction_id": 18,
+        "customer": {
+            "id": 99
+        },
+        "payment": {
+            "amount": 16130.1,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 19,
+        "customer": {
+            "id": 87
+        },
+        "payment": {
+            "amount": 14274.63,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-01"
+    },
+    {
+        "transaction_id": 20,
+        "customer": {
+            "id": 2
+        },
+        "payment": {
+            "amount": 11388.68,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-05"
+    },
+    {
+        "transaction_id": 21,
+        "customer": {
+            "id": 83
+        },
+        "payment": {
+            "amount": 5540.76,
+            "method": "NETBANKING"
+        },
+        "device": "mobile",
+        "date": "2026-07-14"
+    },
+    {
+        "transaction_id": 22,
+        "customer": {
+            "id": 81
+        },
+        "payment": {
+            "amount": 401.28,
+            "method": "BitcoinCashUPI"
+        },
+        "device": "mobile",
+        "date": "2026-07-14"
+    },
+    {
+        "transaction_id": 23,
+        "customer": {
+            "id": 72
+        },
+        "payment": {
+            "amount": 4002.88,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 24,
+        "customer": {
+            "id": 74
+        },
+        "payment": {
+            "amount": 15447.5,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 25,
+        "customer": {
+            "id": 90
+        },
+        "payment": {
+            "amount": 16676.85,
+            "method": "NETBANKING"
+        },
+        "device": "mobile",
+        "date": "2026-06-30"
+    },
+    {
+        "transaction_id": 26,
+        "customer": {
+            "id": 67
+        },
+        "payment": {
+            "amount": 9478.61,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-07-14"
+    },
+    {
+        "transaction_id": 27,
+        "customer": {
+            "id": null
+        },
+        "payment": null,
+        "device": "tablet",
+        "date": "2026-07-08"
+    },
+    {
+        "transaction_id": 28,
+        "customer": {
+            "id": null
+        },
+        "payment": {
+            "amount": 19659.92,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-06-22"
+    },
+    {
+        "transaction_id": 29,
+        "customer": {
+            "id": 1
+        },
+        "payment": {
+            "amount": 19366.3,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 30,
+        "customer": {
+            "id": 25
+        },
+        "payment": {
+            "amount": 1146.54,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 31,
+        "customer": {
+            "id": 94
+        },
+        "payment": {
+            "amount": 19124.3,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-01"
+    },
+    {
+        "transaction_id": 32,
+        "customer": {
+            "id": 65
+        },
+        "payment": null,
+        "device": "mobile",
+        "date": "2026-06-24"
+    },
+    {
+        "transaction_id": 33,
+        "customer": {
+            "id": 74
+        },
+        "payment": {
+            "amount": 4364.63,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-15"
+    },
+    {
+        "transaction_id": 34,
+        "customer": {
+            "id": 54
+        },
+        "payment": {
+            "amount": 19388.06,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 35,
+        "customer": {
+            "id": 91
+        },
+        "payment": {
+            "amount": 9953.91,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-06-21"
+    },
+    {
+        "transaction_id": 36,
+        "customer": {
+            "id": 83
+        },
+        "payment": {
+            "amount": 10894.11,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-13"
+    },
+    {
+        "transaction_id": 37,
+        "customer": {
+            "id": 29
+        },
+        "payment": {
+            "amount": 11671.83,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-07-05"
+    },
+    {
+        "transaction_id": 38,
+        "customer": {
+            "id": 50
+        },
+        "payment": {
+            "amount": 7449.7,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-07-06"
+    },
+    {
+        "transaction_id": 39,
+        "customer": {
+            "id": 32
+        },
+        "payment": {
+            "amount": 2062.97,
+            "method": "BitcoinCashUPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-02"
+    },
+    {
+        "transaction_id": 40,
+        "customer": {
+            "id": 84
+        },
+        "payment": {
+            "amount": 2827.52,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 41,
+        "customer": {
+            "id": 43
+        },
+        "payment": {
+            "amount": 14009.71,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-07-01"
+    },
+    {
+        "transaction_id": 42,
+        "customer": {
+            "id": 23
+        },
+        "payment": {
+            "amount": 9077.25,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-07-16"
+    },
+    {
+        "transaction_id": 43,
+        "customer": {
+            "id": 81
+        },
+        "payment": {
+            "amount": -5526.1,
+            "method": "NETBANKING"
+        },
+        "device": "mobile",
+        "date": "2026-07-04"
+    },
+    {
+        "transaction_id": 44,
+        "customer": {
+            "id": 27
+        },
+        "payment": {
+            "amount": 2193.56,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "15/06/2026"
+    },
+    {
+        "transaction_id": 45,
+        "customer": {
+            "id": 23
+        },
+        "payment": {
+            "amount": 9160.02,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-07-04"
+    },
+    {
+        "transaction_id": 46,
+        "customer": {
+            "id": 12
+        },
+        "payment": {
+            "amount": 3011.22,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-06-28"
+    },
+    {
+        "transaction_id": 47,
+        "customer": {
+            "id": 72
+        },
+        "payment": {
+            "amount": 15290.43,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-19"
+    },
+    {
+        "transaction_id": 48,
+        "customer": {
+            "id": 88
+        },
+        "payment": {
+            "amount": 2301.61,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-07-09"
+    },
+    {
+        "transaction_id": 49,
+        "customer": {
+            "id": 17
+        },
+        "payment": {
+            "amount": 13441.94,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "2026-07-07"
+    },
+    {
+        "transaction_id": 50,
+        "customer": {
+            "id": 56
+        },
+        "payment": {
+            "amount": 5449.36,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-06-24"
+    },
+    {
+        "transaction_id": 51,
+        "customer": {
+            "id": 78
+        },
+        "payment": {
+            "amount": 17990.47,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 52,
+        "customer": {
+            "id": 82
+        },
+        "payment": {
+            "amount": 10365.76,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-07-02"
+    },
+    {
+        "transaction_id": 53,
+        "customer": {
+            "id": 86
+        },
+        "payment": {
+            "amount": 10951.87,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-06-19"
+    },
+    {
+        "transaction_id": 54,
+        "customer": {
+            "id": 8
+        },
+        "payment": {
+            "amount": -13034.45,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-07-07"
+    },
+    {
+        "transaction_id": 55,
+        "customer": {
+            "id": 38
+        },
+        "payment": {
+            "amount": 4461.88,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 56,
+        "customer": {
+            "id": 21
+        },
+        "payment": {
+            "amount": 14964.31,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-15"
+    },
+    {
+        "transaction_id": 57,
+        "customer": {
+            "id": 70
+        },
+        "payment": {
+            "amount": 4815.48,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-06-30"
+    },
+    {
+        "transaction_id": 58,
+        "customer": {
+            "id": 82
+        },
+        "payment": {
+            "amount": 2228.81,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-06-26"
+    },
+    {
+        "transaction_id": 59,
+        "customer": {
+            "id": 56
+        },
+        "payment": {
+            "amount": 16684.21,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-07-12"
+    },
+    {
+        "transaction_id": 60,
+        "customer": {
+            "id": 31
+        },
+        "payment": {
+            "amount": 12833.11,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "2026-06-23"
+    },
+    {
+        "transaction_id": 61,
+        "customer": {
+            "id": 8
+        },
+        "payment": {
+            "amount": 10956.67,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-08"
+    },
+    {
+        "transaction_id": 62,
+        "customer": {
+            "id": 5
+        },
+        "payment": {
+            "amount": 14590.79,
+            "method": "NETBANKING"
+        },
+        "device": "mobile",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 63,
+        "customer": {
+            "id": 12
+        },
+        "payment": {
+            "amount": 8025.21,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-01"
+    },
+    {
+        "transaction_id": 64,
+        "customer": {
+            "id": 91
+        },
+        "payment": {
+            "amount": 4327.34,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-16"
+    },
+    {
+        "transaction_id": 65,
+        "customer": {
+            "id": 69
+        },
+        "payment": {
+            "amount": 17500.75,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-07-06"
+    },
+    {
+        "transaction_id": 66,
+        "customer": {
+            "id": 36
+        },
+        "payment": {
+            "amount": 16031.66,
+            "method": "CARD"
+        },
+        "device": "mobile",
+        "date": "2026-06-29"
+    },
+    {
+        "transaction_id": 67,
+        "customer": {
+            "id": 43
+        },
+        "payment": {
+            "amount": 14637.56,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "2026-06-21"
+    },
+    {
+        "transaction_id": 68,
+        "customer": {
+            "id": 20
+        },
+        "payment": {
+            "amount": 17926.82,
+            "method": "NETBANKING"
+        },
+        "device": "mobile",
+        "date": "2026-06-29"
+    },
+    {
+        "transaction_id": 69,
+        "customer": {
+            "id": 43
+        },
+        "payment": {
+            "amount": 19082.99,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-06-27"
+    },
+    {
+        "transaction_id": 70,
+        "customer": {
+            "id": 76
+        },
+        "payment": {
+            "amount": 16013.3,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-08"
+    },
+    {
+        "transaction_id": 71,
+        "customer": {
+            "id": 85
+        },
+        "payment": {
+            "amount": 14615.89,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-07-13"
+    },
+    {
+        "transaction_id": 72,
+        "customer": {
+            "id": 65
+        },
+        "payment": {
+            "amount": 18200.44,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-07-14"
+    },
+    {
+        "transaction_id": 73,
+        "customer": {
+            "id": 79
+        },
+        "payment": {
+            "amount": 16711.26,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 74,
+        "customer": {
+            "id": 81
+        },
+        "payment": {
+            "amount": 4060.09,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-06-24"
+    },
+    {
+        "transaction_id": 75,
+        "customer": {
+            "id": 46
+        },
+        "payment": {
+            "amount": 17643.89,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 76,
+        "customer": {
+            "id": 75
+        },
+        "payment": {
+            "amount": 14497.25,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-06-29"
+    },
+    {
+        "transaction_id": 77,
+        "customer": {
+            "id": 10
+        },
+        "payment": {
+            "amount": 9978.19,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-07-15"
+    },
+    {
+        "transaction_id": 78,
+        "customer": {
+            "id": 93
+        },
+        "payment": {
+            "amount": 9792.54,
+            "method": "UPI"
+        },
+        "device": "mobile",
+        "date": "2026-06-17"
+    },
+    {
+        "transaction_id": 79,
+        "customer": {
+            "id": 21
+        },
+        "payment": {
+            "amount": 11562.59,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "15/06/2026"
+    },
+    {
+        "transaction_id": 80,
+        "customer": {
+            "id": 33
+        },
+        "payment": {
+            "amount": 918.76,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 81,
+        "customer": {
+            "id": 10
+        },
+        "payment": {
+            "amount": 14357.03,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-07-15"
+    },
+    {
+        "transaction_id": 82,
+        "customer": {
+            "id": 33
+        },
+        "payment": {
+            "amount": 6248.67,
+            "method": "CARD"
+        },
+        "device": "desktop",
+        "date": "2026-07-07"
+    },
+    {
+        "transaction_id": 83,
+        "customer": {
+            "id": 34
+        },
+        "payment": {
+            "amount": 11037.22,
+            "method": "CARD"
+        },
+        "device": "tablet",
+        "date": "2026-07-07"
+    },
+    {
+        "transaction_id": 84,
+        "customer": {
+            "id": 26
+        },
+        "payment": {
+            "amount": 1447.87,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-07-11"
+    },
+    {
+        "transaction_id": 85,
+        "customer": {
+            "id": 1
+        },
+        "payment": {
+            "amount": 15392.0,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-07-11"
+    },
+    {
+        "transaction_id": 86,
+        "customer": {
+            "id": 68
+        },
+        "payment": {
+            "amount": 13400.97,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-24"
+    },
+    {
+        "transaction_id": 87,
+        "customer": {
+            "id": 71
+        },
+        "payment": {
+            "amount": -2472.48,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-23"
+    },
+    {
+        "transaction_id": 88,
+        "customer": {
+            "id": 100
+        },
+        "payment": {
+            "amount": 4169.65,
+            "method": "UPI"
+        },
+        "device": "tablet",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 89,
+        "customer": {
+            "id": 56
+        },
+        "payment": {
+            "amount": 18917.99,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-07-07"
+    },
+    {
+        "transaction_id": 90,
+        "customer": {
+            "id": 12
+        },
+        "payment": {
+            "amount": 5854.48,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-07-04"
+    },
+    {
+        "transaction_id": 91,
+        "customer": {
+            "id": 37
+        },
+        "payment": {
+            "amount": 10291.52,
+            "method": "UPI"
+        },
+        "device": "desktop",
+        "date": "2026-07-14"
+    },
+    {
+        "transaction_id": 92,
+        "customer": {
+            "id": 13
+        },
+        "payment": null,
+        "device": "desktop",
+        "date": "2026-07-15"
+    },
+    {
+        "transaction_id": 93,
+        "customer": {
+            "id": 68
+        },
+        "payment": {
+            "amount": 16796.29,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "15/06/2026"
+    },
+    {
+        "transaction_id": 94,
+        "customer": {
+            "id": 12
+        },
+        "payment": {
+            "amount": 13794.67,
+            "method": "COD"
+        },
+        "device": "tablet",
+        "date": "2026-07-10"
+    },
+    {
+        "transaction_id": 95,
+        "customer": {
+            "id": 40
+        },
+        "payment": {
+            "amount": 12632.18,
+            "method": "COD"
+        },
+        "device": "desktop",
+        "date": "2026-06-18"
+    },
+    {
+        "transaction_id": 96,
+        "customer": {
+            "id": 29
+        },
+        "payment": {
+            "amount": 17134.47,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-20"
+    },
+    {
+        "transaction_id": 97,
+        "customer": {
+            "id": 33
+        },
+        "payment": {
+            "amount": 2314.61,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-07-11"
+    },
+    {
+        "transaction_id": 98,
+        "customer": {
+            "id": 13
+        },
+        "payment": {
+            "amount": 4293.44,
+            "method": "NETBANKING"
+        },
+        "device": "desktop",
+        "date": "2026-06-29"
+    },
+    {
+        "transaction_id": 99,
+        "customer": {
+            "id": 100
+        },
+        "payment": {
+            "amount": 1364.16,
+            "method": "NETBANKING"
+        },
+        "device": "tablet",
+        "date": "2026-07-11"
+    },
+    {
+        "transaction_id": 100,
+        "customer": {
+            "id": 33
+        },
+        "payment": {
+            "amount": 12096.54,
+            "method": "COD"
+        },
+        "device": "mobile",
+        "date": "2026-07-05"
+    }
+]

@@ -19,3 +19,12 @@ Resources used while researching and building this lab.
 - AWS — https://aws.amazon.com/big-data/datalakes-and-analytics/
 - GCP — https://cloud.google.com/solutions/data-lake
 - Azure — https://azure.microsoft.com/en-us/solutions/data-lake
+
+
+Practical 2 — ETL Pipeline
+
+* Faker docs — https://faker.readthedocs.io/en/master/
+* Pandas docs — https://pandas.pydata.org/docs/
+* FastAPI docs — https://fastapi.tiangolo.com/
+* Requests docs — https://requests.readthedocs.io/en/latest/
+* SQLite docs — https://www.sqlite.org/docs.html
