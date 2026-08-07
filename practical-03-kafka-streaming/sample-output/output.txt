@@ -1,0 +1,39 @@
+Consumer Started
+Waiting for Messages...
+
+---------------------------
+Received : {'user_id': 101, 'action': 'login', 'page': 'home', 'timestamp': 1786118227.9972153}
+Latency  : 2236474.74 ms
+---------------------------
+Received : {'user_id': 101, 'action': 'search', 'page': 'laptops', 'timestamp': 1786118229.0043278}
+Latency  : 2235468.6 ms
+---------------------------
+Received : {'user_id': 102, 'action': 'view_product', 'page': 'mobile', 'timestamp': 1786118230.0055232}
+Latency  : 2234468.01 ms
+---------------------------
+Received : {'user_id': 103, 'action': 'add_to_cart', 'page': 'cart', 'timestamp': 1786118231.0066838}
+Latency  : 2233467.34 ms
+---------------------------
+Received : {'user_id': 101, 'action': 'checkout', 'page': 'payment', 'timestamp': 1786118232.0081396}
+Latency  : 2232466.21 ms
+---------------------------
+Received : {'user_id': 104, 'action': 'login', 'page': 'home', 'timestamp': 1786118233.0102122}
+Latency  : 2231464.56 ms
+---------------------------
+Received : {'user_id': 105, 'action': 'search', 'page': 'headphones', 'timestamp': 1786118234.0116642}
+Latency  : 2230463.54 ms
+---------------------------
+Received : {'user_id': 102, 'action': 'logout', 'page': 'profile', 'timestamp': 1786118235.0128067}
+Latency  : 2229463.06 ms
+---------------------------
+Received : {'user_id': 106, 'action': 'login', 'page': 'home', 'timestamp': 1786118236.0139399}
+Latency  : 2228462.2 ms
+---------------------------
+Received : {'user_id': 107, 'action': 'view_product', 'page': 'electronics', 'timestamp': 1786118237.0154142}
+Latency  : 2227461.32 ms
+
+========== RESULTS ==========
+Total Messages : 10
+Total Time     : 0.173 seconds
+Average Latency: 2231965.96 ms
+Throughput     : 57.79 messages/sec
