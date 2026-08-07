@@ -28,3 +28,18 @@ Practical 2 — ETL Pipeline
 * FastAPI docs — https://fastapi.tiangolo.com/
 * Requests docs — https://requests.readthedocs.io/en/latest/
 * SQLite docs — https://www.sqlite.org/docs.html
+
+
+## Practical 3 — Kafka Streaming
+
+Apache Kafka Documentation
+https://kafka.apache.org/documentation/
+
+Kafka Python NG
+https://github.com/kafka-python-ng/kafka-python-ng
+
+Apache Kafka Quickstart
+https://kafka.apache.org/quickstart
+
+Pandas Documentation
+https://pandas.pydata.org/docs/

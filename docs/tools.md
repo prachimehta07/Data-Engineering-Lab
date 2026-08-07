@@ -56,3 +56,15 @@ Scoped to what actually appears in the Practical 2 ETL pipeline.
 | Uvicorn | ASGI server that runs the FastAPI app |
 | Requests | HTTP client used to call the transaction API from the ETL |
 | SQLite | Relational source (products) and destination (warehouse) database |
+
+---
+
+## Tools Referenced in Practical 3
+
+| Tool | Purpose |
+|------|---------|
+| Apache Kafka | Distributed event streaming platform used to publish and consume real-time events |
+| Kafka KRaft Mode | Metadata management without ZooKeeper |
+| kafka-python-ng | Python client library for Kafka Producer and Consumer |
+| Pandas | Data analysis library (included for later extensions and log processing) |
+| JSON | Message serialization format |

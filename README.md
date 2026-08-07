@@ -39,6 +39,13 @@ Data-Engineering-Lab/
     ├── etl_pipeline/
     ├── warehouse/
     └── output/
+└── practical-03-kafka-streaming/
+    │── producer.py
+    │── consumer.py
+    │── sample-output/
+    │── screenshots/
+    └── README.md
+
 ```
 
 Each practical folder documents itself in its own `README.md` — that's the single entry point per practical.
@@ -51,16 +58,18 @@ Each practical folder documents itself in its own `README.md` — that's the sin
 |---|-----------|---------|
 | 1 | [Enterprise Data Engineering Lifecycle](./practical-01-data-engineering-lifecycle) | End-to-end architecture diagram + design rationale + manifesto for an e-commerce platform |
 | 2 | [ETL Pipeline with Schema Discovery & Validation](./practical-02-etl-pipeline) | Simulated file/API/DB source systems, schema discovery, profiling, validation, and warehouse loading |
-
+| 3 | [Kafka Real-Time Streaming Pipeline](./practical-03-kafka-streaming) | Apache Kafka Producer–Consumer implementation for real-time web activity log ingestion with latency and throughput measurement. |
 
 ---
 
 ## Objectives
 
-- Understand enterprise data engineering architecture end to end
-- Design pipelines that scale from prototype to production
-- Practice professional technical documentation
-- Apply real version control workflow
+- Understand enterprise data engineering architecture end to end.
+- Design scalable ETL and streaming data pipelines.
+- Practice real-time data ingestion using Apache Kafka.
+- Measure streaming performance using latency and throughput metrics.
+- Apply professional technical documentation practices.
+- Use Git and GitHub for version control and project management.
 
 ---
 
