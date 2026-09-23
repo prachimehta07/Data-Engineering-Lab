@@ -47,6 +47,16 @@ Resources used while researching and building this lab.
 
 ---
 
+## Practical 5 — Partitioned Data Storage
+
+- MinIO Documentation — Object storage and S3-compatible storage
+- Docker Documentation — Running MinIO in a container
+- Boto3 Documentation — Python SDK for AWS S3-compatible object storage
+- Pandas Documentation — Dataset generation and CSV processing
+- Python Documentation — File handling and performance measurement
+
+---
+
 ## Practical 6 — Storage Lifecycle Management
 
 - MinIO Documentation — Object storage concepts and S3-compatible storage
@@ -68,5 +78,3 @@ Resources used while researching and building this lab.
 - Automated data tiering
 - Background lifecycle processing
 - Object-storage lifecycle policies
-
-> Note: Practical 6 uses a Python-based lifecycle simulation for the actual tier classification and movement. The local MinIO AIStor environment was used as the intended object-storage context, but native S3 operations were not used because the local installation required a valid license.

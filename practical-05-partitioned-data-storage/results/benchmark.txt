@@ -1,0 +1,42 @@
+PRACTICAL 5 - PARTITIONED DATA STORAGE
+=======================================
+
+Dataset:
+Records generated: 20,000
+Years: 2023-2025
+Regions: Gujarat, Maharashtra, Delhi, Rajasthan
+Applications: MobileApp, WebApp, API, Payment
+Partitions created: 144
+
+Query:
+Year = 2025
+Region = Gujarat
+
+FULL TABLE SCAN
+---------------
+Records scanned: 20000
+Records returned: 1745
+Execution time: 0.8212 seconds
+
+PARTITION QUERY
+---------------
+Records scanned: 1745
+Records returned: 1745
+Execution time: 0.2779 seconds
+
+COMPARISON
+----------
+Records avoided from scanning: 18255
+Percentage of records not scanned: 91.28%
+Time improvement in this run: approximately 66.1%
+
+OBSERVATION
+-----------
+The full-table scan reads all 20,000 records before filtering the
+required data.
+
+The partition query directly accesses the partition for the required
+year and region. Therefore, only 1,745 records are scanned.
+
+Partitioning reduces unnecessary data scanning and can improve query
+performance, especially as the dataset becomes larger.

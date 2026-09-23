@@ -71,6 +71,20 @@ Scoped to what actually appears in the Practical 2 ETL pipeline.
 
 ---
 
+## Tools Referenced in Practical 5
+
+| Tool | Purpose |
+|------|---------|
+| **MinIO** | S3-compatible object storage used to store partitioned data |
+| **Docker** | Runs the MinIO object-storage server locally |
+| **Python** | Generates data, creates partitions, uploads data and runs queries |
+| **Pandas** | Creates and processes the analytical dataset |
+| **Boto3** | Connects Python to MinIO using the S3 API |
+| **CSV** | Stores the generated dataset and partition files |
+| **Git / GitHub** | Version control and submission of the practical |
+
+---
+
 ## Tools Referenced in Practical 6
 
 Scoped to the tools actually used in the Storage Lifecycle Management practical.
