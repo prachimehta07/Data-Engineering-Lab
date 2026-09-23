@@ -3,43 +3,70 @@
 Resources used while researching and building this lab.
 
 ## Official Docs
-- Apache Kafka — https://kafka.apache.org/documentation/
-- Apache Flink — https://nightlies.apache.org/flink/flink-docs-stable/
-- Apache Spark — https://spark.apache.org/docs/latest/
-- Delta Lake — https://docs.delta.io/
-- Apache Iceberg — https://iceberg.apache.org/docs/latest/
-- dbt — https://docs.getdbt.com/
-- Draw.io / diagrams.net — https://www.drawio.com/doc/
+
+- Apache Kafka — Official Documentation
+- Apache Flink — Official Documentation
+- Apache Spark — Official Documentation
+- Delta Lake — Official Documentation
+- Apache Iceberg — Official Documentation
+- dbt — Official Documentation
+- Draw.io / diagrams.net — Official Documentation
+- MinIO — Official Documentation
+- MinIO Client (`mc`) — Official Documentation
+- Python — Official Documentation
 
 ## Concepts
+
 - *Fundamentals of Data Engineering* — Joe Reis & Matt Housley (O'Reilly)
 - *Designing Data-Intensive Applications* — Martin Kleppmann
 
 ## Cloud Platforms
-- AWS — https://aws.amazon.com/big-data/datalakes-and-analytics/
-- GCP — https://cloud.google.com/solutions/data-lake
-- Azure — https://azure.microsoft.com/en-us/solutions/data-lake
 
+- AWS — Big Data, Data Lakes and Analytics
+- GCP — Data Lake Solutions
+- Azure — Data Lake Solutions
 
-Practical 2 — ETL Pipeline
+---
 
-* Faker docs — https://faker.readthedocs.io/en/master/
-* Pandas docs — https://pandas.pydata.org/docs/
-* FastAPI docs — https://fastapi.tiangolo.com/
-* Requests docs — https://requests.readthedocs.io/en/latest/
-* SQLite docs — https://www.sqlite.org/docs.html
+## Practical 2 — ETL Pipeline
 
+- Faker Documentation
+- Pandas Documentation
+- FastAPI Documentation
+- Requests Documentation
+- SQLite Documentation
+
+---
 
 ## Practical 3 — Kafka Streaming
 
-Apache Kafka Documentation
-https://kafka.apache.org/documentation/
+- Apache Kafka Documentation
+- Apache Kafka Quickstart
+- kafka-python-ng Documentation and Repository
+- Pandas Documentation
 
-Kafka Python NG
-https://github.com/kafka-python-ng/kafka-python-ng
+---
 
-Apache Kafka Quickstart
-https://kafka.apache.org/quickstart
+## Practical 6 — Storage Lifecycle Management
 
-Pandas Documentation
-https://pandas.pydata.org/docs/
+- MinIO Documentation — Object storage concepts and S3-compatible storage
+- MinIO Client Documentation — Command-line object storage management
+- Python Documentation — File handling, CSV, JSON and automation
+- JSON Documentation / Python `json` module — Lifecycle policy configuration
+- Python `csv` module — Access manifest and lifecycle result processing
+- Python `pathlib` module — Cross-platform file and directory handling
+- Python `shutil` module — Simulated movement/copying of objects between storage tiers
+- Python `time` module — Periodic background lifecycle checks
+
+### Practical 6 Concepts
+
+- Storage lifecycle management
+- Hot, Warm and Cold storage tiers
+- Object age and retention
+- Access frequency
+- Storage cost optimization
+- Automated data tiering
+- Background lifecycle processing
+- Object-storage lifecycle policies
+
+> Note: Practical 6 uses a Python-based lifecycle simulation for the actual tier classification and movement. The local MinIO AIStor environment was used as the intended object-storage context, but native S3 operations were not used because the local installation required a valid license.

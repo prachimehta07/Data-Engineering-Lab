@@ -50,12 +50,12 @@ Scoped to what actually appears in the Practical 2 ETL pipeline.
 
 | Tool | What it's for |
 |------|---------------|
-| Faker | Generates realistic fake data (names, emails, dates) for simulating source systems |
-| Pandas | Reads, profiles, and validates tabular/semi-structured data |
-| FastAPI | Simulates a transaction API that the ETL pulls from |
-| Uvicorn | ASGI server that runs the FastAPI app |
-| Requests | HTTP client used to call the transaction API from the ETL |
-| SQLite | Relational source (products) and destination (warehouse) database |
+| **Faker** | Generates realistic fake data (names, emails, dates) for simulating source systems |
+| **Pandas** | Reads, profiles, and validates tabular/semi-structured data |
+| **FastAPI** | Simulates a transaction API that the ETL pulls from |
+| **Uvicorn** | ASGI server that runs the FastAPI app |
+| **Requests** | HTTP client used to call the transaction API from the ETL |
+| **SQLite** | Relational source and destination database |
 
 ---
 
@@ -63,8 +63,27 @@ Scoped to what actually appears in the Practical 2 ETL pipeline.
 
 | Tool | Purpose |
 |------|---------|
-| Apache Kafka | Distributed event streaming platform used to publish and consume real-time events |
-| Kafka KRaft Mode | Metadata management without ZooKeeper |
-| kafka-python-ng | Python client library for Kafka Producer and Consumer |
-| Pandas | Data analysis library (included for later extensions and log processing) |
-| JSON | Message serialization format |
+| **Apache Kafka** | Distributed event streaming platform used to publish and consume real-time events |
+| **Kafka KRaft Mode** | Metadata management without ZooKeeper |
+| **kafka-python-ng** | Python client library for Kafka Producer and Consumer |
+| **Pandas** | Data analysis library included for log processing and later extensions |
+| **JSON** | Message serialization format |
+
+---
+
+## Tools Referenced in Practical 6
+
+Scoped to the tools actually used in the Storage Lifecycle Management practical.
+
+| Tool | Purpose |
+|------|---------|
+| **Python** | Implements lifecycle classification, file processing, cost analysis and background automation |
+| **MinIO / AIStor** | Object-storage environment and S3-compatible storage context for the practical |
+| **MinIO Client (`mc`)** | Command-line client for interacting with MinIO-compatible object storage |
+| **JSON** | Stores the Hot/Warm/Cold lifecycle policy |
+| **CSV** | Stores object access-time and frequency manifests and lifecycle results |
+| **Python `pathlib`** | Handles file and directory paths |
+| **Python `shutil`** | Copies objects into simulated storage-tier directories |
+| **Python `time`** | Provides the periodic delay for background lifecycle checks |
+| **Git / GitHub** | Version control and submission of the practical |
+

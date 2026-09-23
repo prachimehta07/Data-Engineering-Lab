@@ -1,0 +1,18 @@
+{
+    "policy_name": "Operational Data Storage Lifecycle",
+    "description": "Automatically classify operational data into Hot, Warm and Cold tiers using object age and access frequency.",
+    "priority": ["age", "access_frequency"],
+    "tiers": {
+        "HOT": {
+            "max_age_days": 30,
+            "min_access_count": 10
+        },
+        "WARM": {
+            "max_age_days": 90,
+            "min_access_count": 3
+        },
+        "COLD": {
+            "min_age_days": 91
+        }
+    }
+}
